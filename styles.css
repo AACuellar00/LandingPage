@@ -136,35 +136,33 @@ button{
 
 
 .BlueBlock{
-    background-color: #3882F6;
     display : flex;
     flex-direction: column;
-    margin-top: 50px;
 }
 
-.BlueBlockH{
+.BlueBlock strong{
     font-weight: 900;
     font-size: 18px;
     margin:40px 0 0 0;
     font-style: bold;
     font-weight:bolder;
+    color:white;
 }
 
-.BlueBlockT{
+.BlueBlock p{
     margin:0 0 40px 0;
+    color:white;
 }
 
 .BottomBackground{
-    border-radius: 1em;
-    margin: 100px 150px 100px 150px;
-    justify-content: space-around;
+    background-color: #3883f6;
     display: flex;
+    border-radius: 5 px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
     height: 150px;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    color: white;
+    width: 75%;
 }
 
 buttonBot{
@@ -174,5 +172,4 @@ buttonBot{
     border-radius: 7px;
     padding: 5px 20px 5px 20px;   
     font-size: 15px;
-    align-self: center;
 }
