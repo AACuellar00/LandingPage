@@ -56,14 +56,27 @@ footer{
     background-color: #1F2937;
 }
 
+
+.HeroDiv{
+    display: flex;
+    gap:100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .HeroMain{
     color:#F9FAF8;
     font-size:48px;
     font-weight:bolder;
+    font-style: bold;
+}
+
+.HeroBox{
+    padding-bottom: 100px;
+    width: 500px;
 }
 
 .SecondaryLink{
-    text-decoration: none;
     font-size:18px;
     color: #E5E7EB;
 }
@@ -75,15 +88,6 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.HeroDiv{
-    display: flex;
-    margin: auto;
-    width: 80%;
-    height: 500px;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .Click{
@@ -111,10 +115,12 @@ footer{
 .Image{
   max-width: 100%;
   height: auto;
+  
 }
 
 button{
     background-color: #3882F6;
+    border: 2px solid white;
     color: white;
     border-radius: 7px;
     padding: 5px 1em;    
@@ -122,12 +128,30 @@ button{
     font-size: 15px;
 }
 
-.BlueBlock{
+.BottomBackground{
+    margin: 100px 150px 100px 150px;
+    justify-content: space-around;
+    margin: auto;
+    height: 150px;
+    width: 1000px;
+    background-color: white;
+    color: white;
+}
 
+.BlueBlock{
+    background-color: #3882F6;
+    display : flex;
+    flex-direction: column;
 }
-.BlueBlockT{
-    
-}
+
 .BlueBlockH{
-    
+    font-weight: 900;
+    font-size: 18px;
+    margin:40px 0 0 0;
+    font-style: bold;
+    font-weight:bolder;
+}
+
+.BlueBlockT{
+    margin:0 0 40px 0;
 }
