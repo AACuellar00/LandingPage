@@ -1,22 +1,51 @@
 *{
     font-family:"Roboto";
+    margin:0;
+    padding:0;
 }
-.hero {
+
+.CenterBackground{
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.Hero{
     background-color: #1F2937;
 }
-.Main{
+
+.HeroMain{
     color:#F9FAF8;
     font-size:48px;
-    font-weight:bolder
+    font-weight:bolder;
 }
+
 .SecondaryLink{
-    color:#E5E7EB;
+    text-decoration: none;
     font-size:18px;
+    color: #E5E7EB;
 }
+
 .Logo{
     font-size: 24px;
     font-weight: bold;
-    color:#F9FaF8;
+    color:#F9FAF8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.HeroDiv{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Click{
@@ -37,4 +66,26 @@
     font:36px;
     font-weight:lighter;
     color:#1f2937;
+}
+
+.Image{
+  max-width: 100%;
+  height: auto;
+}
+
+.Image2{
+    max-width: 100%;
+    height: 100px;
+    border:solid #3882F6 2px;
+    width: 150px;
+    border-radius: auto;
+  }
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 1em;    
+    width: 150px;
+    font-size: 15px;
 }
