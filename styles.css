@@ -96,6 +96,9 @@ footer{
 
 .QuoteBack{
     background-color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .QuoteText{
@@ -103,6 +106,7 @@ footer{
     font-weight:lighter;
     color:#1f2937;
     font-style: italic;
+    margin-top:75px;
 }
 
 .QuoteAuthor{
@@ -110,6 +114,8 @@ footer{
     font-weight:bolder;
     font-style: bold;
     color:#1f2937;
+    padding-left: 750px;
+    margin-bottom: 75px;
 }
 
 .Image{
